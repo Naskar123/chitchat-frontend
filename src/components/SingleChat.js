@@ -11,7 +11,8 @@ import ScrollableChat from './ScrollableChat';
 import io  from "socket.io-client";
 // import TypingIndicator from '../animations/TypingIndicator';
 
-const ENDPOINT = process.env.SERVER_URL;
+const ENDPOINT = "https://chitchat-api-ibo0.onrender.com";
+
 var socket, selectedChatCompare;
 
 const SingleChat = ({fetchAgain, setFetchAgain}) => {
